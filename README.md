@@ -30,7 +30,7 @@ The simulator uses a **provably admissible heuristic** and **crack arrest prunin
 
 ## Algorithm Comparison
 
-![Algorithm Comparison](crack_result_comparison.png)
+![Algorithm Comparison](algorithm_comparison.png)
 
 | Algorithm | Path Cost | Nodes Explored | Optimal? |
 |-----------|----------|----------------|----------|
