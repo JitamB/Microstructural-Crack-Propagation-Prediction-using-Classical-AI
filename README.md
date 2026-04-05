@@ -80,37 +80,31 @@ Run a standard A* fracture simulation on a generated Voronoi microstructure:
 python main.py
 ```
 
-### Algorithm Comparison
+### Modified Simulation
 Run the simulation and compare A* against Dijkstra, Greedy Best-First, and BFS to see side-by-side benchmarks:
 ```bash
 python main.py --compare
 ```
 
-### Monte Carlo Analysis
 Run statistical failure analysis over multiple random microstructures (e.g., 100 runs) to generate probability distributions:
 ```bash
 python main.py --monte-carlo --mc-runs 100
 ```
 
-### Real Image Input
 Run the simulation on a real SEM/EBSD image by auto-segmenting it into phases:
 ```bash
 python main.py --image microstructure.png
 ```
-
-### Algorithm Comparison on Real Image
 Compare algorithms directly on a segmented real microstructure image:
 ```bash
 python main.py --compare --image microstructure.png
 ```
 
-### Custom Microstructure Generation
 Generate a custom synthetic microstructure with specific size, grain count, and constant random seed:
 ```bash
 python main.py --size 150 --n-grains 120 --seed 7
 ```
 
-### Background Execution & Animation
 Run the simulation in the background without displaying the plot, and save an animated GIF of the crack propagation path finding:
 ```bash
 python main.py --no-show --animate
