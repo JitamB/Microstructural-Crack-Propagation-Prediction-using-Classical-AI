@@ -189,7 +189,7 @@ Modes:
 
     # Stress
     parser.add_argument("--stress-max", type=float, default=2.5)
-    parser.add_argument("--stress-min", type=float, default=0.3)
+    parser.add_argument("--stress-min", type=float, default=0.10)
     parser.add_argument("--k-threshold", type=float, default=0.1)
 
     # Search
